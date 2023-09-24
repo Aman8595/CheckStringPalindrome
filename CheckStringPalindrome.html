@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check if a String is a Palindrome</title>
+</head>
+<body>
+    <script>
+       
+    //     let str="racecar"
+    //     let s=str.split("")
+    //     let r=s.reverse()
+    //     let j=r.join("")
+    // if(j===str){
+    //     console.log("is palindrom")
+    // }
+    // else{
+    //     console.log("not palindrom")
+    // }
+
+    ///////////////////////////////////////////////////
+
+    function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+let y= isPalindrome("racecar")
+let z= isPalindrome("Aman")
+
+
+console.log(y)
+console.log(z)
+
+
+    </script>
+</body>
+</html>
